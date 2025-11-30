@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nuhamin Abera – Digital Business Card</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    body {
+      background: #f2f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 16px;
+    }
+    .card {
+      max-width: 420px;
+      width: 100%;
+      background: #ffffff;
+      border-radius: 18px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+      padding: 24px 22px 22px;
+    }
+    .name {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #1F4E79;
+      margin-bottom: 4px;
+    }
+    .role {
+      font-size: 0.98rem;
+      color: #4F81BD;
+      margin-bottom: 14px;
+    }
+    .tagline {
+      font-size: 0.9rem;
+      color: #555555;
+      margin-bottom: 16px;
+      line-height: 1.4;
+    }
+    .section-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #1F4E79;
+      margin-top: 14px;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .info-list {
+      list-style: none;
+      font-size: 0.9rem;
+      color: #333333;
+      margin-bottom: 8px;
+    }
+    .info-list li {
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      word-break: break-word;
+    }
+    .info-label {
+      font-weight: 600;
+      min-width: 72px;
+      font-size: 0.86rem;
+      color: #555;
+    }
+    .info-value a {
+      color: #1F4E79;
+      text-decoration: none;
+    }
+    .info-value a:hover {
+      text-decoration: underline;
+    }
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+      margin-bottom: 6px;
+    }
+    .btn {
+      flex: 1 1 48%;
+      text-align: center;
+      font-size: 0.86rem;
+      padding: 9px 10px;
+      border-radius: 999px;
+      border: 1px solid #1F4E79;
+      background: #1F4E79;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
+    }
+    .btn.secondary {
+      background: #ffffff;
+      color: #1F4E79;
+    }
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    .note {
+      font-size: 0.78rem;
+      color: #777;
+      margin-top: 6px;
+      line-height: 1.3;
+    }
+    .footer {
+      margin-top: 14px;
+      padding-top: 8px;
+      border-top: 1px solid #eef1f5;
+      font-size: 0.76rem;
+      color: #888;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="name">Nuhamin Abera</div>
+    <div class="role">Junior Auditor • Accounting &amp; Finance • Capital Markets Interest</div>
+    <div class="tagline">
+      Bachelor’s in Accounting and Finance with hands-on auditing experience and research on
+      government debt securities in Ethiopia’s upcoming capital market. Open to learning,
+      networking, and exploring roles related to financial analysis and capital markets.
+    </div>
+
+    <div class="section-title">Contact</div>
+    <ul class="info-list">
+      <li>
+        <span class="info-label">Phone</span>
+        <span class="info-value"><a href="tel:+251908930838">(+251) 908 930 838</a></span>
+      </li>
+      <li>
+        <span class="info-label">Email</span>
+        <span class="info-value"><a href="mailto:nuhaminaberaabuye@gmail.com">nuhaminaberaabuye@gmail.com</a></span>
+      </li>
+      <li>
+        <span class="info-label">LinkedIn</span>
+        <span class="info-value">
+          <a href="https://www.linkedin.com/in/nuhamin-abera-1ba96128a" target="_blank" rel="noopener">
+            linkedin.com/in/nuhamin-abera-1ba96128a
+          </a>
+        </span>
+      </li>
+      <li>
+        <span class="info-label">Location</span>
+        <span class="info-value">Tulu Dimtu, Addis Ababa, Ethiopia</span>
+      </li>
+    </ul>
+
+    <div class="section-title">Quick Links</div>
+    <div class="buttons">
+      <!-- TODO: replace the # with your real links -->
+      <a class="btn" href="https://drive.google.com/file/d/1XPuVe7MmO0ljAX6QDp8Y2R29LEbQzxvT/view?usp=sharing" target="_blank" rel="noopener">
+        📄 View CV (PDF)
+      </a>
+      <a class="btn secondary" href="nuhamin-abera.vcf">
+        💾 Save Contact (vCard)
+      </a>
+      <a class="btn secondary" href="https://www.linkedin.com/in/nuhamin-abera-1ba96128a" target="_blank" rel="noopener">
+        🔗 Open LinkedIn
+      </a>
+    </div>
+
+    <div class="section-title">Focus Areas</div>
+    <ul class="info-list">
+      <li>• Financial analysis, auditing, and bookkeeping</li>
+      <li>• Government debt securities and emerging capital markets</li>
+      <li>• IFRS training and public-sector finance exposure</li>
+      <li>• Client-facing communication and event-based sales</li>
+    </ul>
+
+    <div class="footer">
+      Scan → open this card → save contact or access CV &amp; LinkedIn.
+    </div>
+  </div>
+</body>
+</html>
